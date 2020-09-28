@@ -1,14 +1,53 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+[
+  {
+    id: "1",
+    image: Images.construction,
+    title: "Tòa nhà ABC",
+    subtitle: "Chủ đầu tư: Công ty",
+    date: "Ngày upload: 20/10/2019",
+    rate: 4.5,
+    status:1,
+    statusMsg: "Xác nhận"
+  },
+  {
+    id: "2",
+    image: Images.construction,
+    title: "Tòa nhà ABC",
+    subtitle: "Chủ đầu tư: Công ty",
+    date: "Ngày upload: 20/10/2019",
+    rate: 4.5,
+    status:2,
+    statusMsg: "Từ chối"
+  },
+  {
+    id: "3",
+    image: Images.construction,
+    title: "Tòa nhà ABC",
+    subtitle: "Chủ đầu tư: Công ty",
+    date: "Ngày upload: 20/10/2019",
+    rate: 4.5,
+    status:3,
+    statusMsg: "Mới"
+  },
+  {
+    id: "4",
+    image: Images.construction,
+    title: "Tòa nhà ABC",
+    subtitle: "Chủ đầu tư: Công ty",
+    date: "Ngày upload: 20/10/2019",
+    rate: 4.5,
+    status:1,
+    statusMsg: "Xác nhận"
+
+  },
+  {
+    id: "5",
+    image: Images.construction,
+    title: "Tòa nhà ABC",
+    subtitle: "Chủ đầu tư: Công ty",
+    date: "Ngày upload: 20/10/2019",
+    rate: 4.5,
+    status:3,
+    statusMsg: "Mới"
   }
-}
+]
